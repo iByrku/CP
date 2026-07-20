@@ -1073,7 +1073,7 @@ export default function App() {
               <a href="#estimator" className="hover:text-neutral-300 transition-colors">Калькулятор вех</a>
             </div>
             <div className="font-mono text-[10px]">
-              Powered by C#/.NET Core, React, and Gemini AI Studio
+              
             </div>
           </div>
         </div>
