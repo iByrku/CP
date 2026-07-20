@@ -150,9 +150,7 @@ export default function App() {
           <div className="flex justify-between items-center h-20">
             {/* Brand Logo / Wordmark */}
             <div className="flex items-center space-x-3">
-              <span className="font-display font-bold text-xl tracking-tight text-neutral-950">
-                КОНТУР <span className="font-mono text-xs font-normal text-neutral-400 ml-1">LABS</span>
-              </span>
+              <Code className="w-5 h-5 text-neutral-900" />
               <span className="h-5 w-[1px] bg-neutral-200" />
               <div className="flex items-center space-x-2">
                 <span className="relative flex h-2 w-2">
@@ -209,10 +207,18 @@ export default function App() {
               Проектируем и запускаем сложные цифровые системы для бизнеса
             </h1>
 
-            {/* Professional Lead Text */}
-            <p className="text-lg sm:text-xl text-neutral-600 font-light leading-relaxed mb-10 max-w-3xl">
-              Мы берём на себя разработку от идеи до запуска: считаем сроки и бюджет заранее, показываем прогресс на каждом этапе и отвечаем за результат. Работаем напрямую, без посредников и агентских наценок — вы платите за работу сильной инженерной команды, а не за прослойку менеджеров.
-            </p>
+            {/* Professional Lead Text & Direct Cooperation Highlight */}
+            <div className="text-lg sm:text-xl text-neutral-600 font-light leading-relaxed mb-10 max-w-3xl space-y-3">
+              <p>
+                Мы берём на себя разработку от идеи до запуска: считаем сроки и бюджет заранее, показываем прогресс на каждом этапе и отвечаем за результат.
+              </p>
+              <p className="text-neutral-950 font-normal">
+                <span className="font-bold text-black">Работаем напрямую, без посредников.</span>{" "}
+                <span className="text-neutral-900 font-light">
+                  Вы общаетесь напрямую с ведущими инженерами и тимлидами без прослоек из аккаунт-менеджеров. Никаких скрытых наценок крупных агентств — вы платите исключительно за чистые часы работы сильной технической команды.
+                </span>
+              </p>
+            </div>
 
             {/* Hero CTAs */}
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center space-y-4 sm:space-y-0 sm:space-x-4">
@@ -232,21 +238,26 @@ export default function App() {
           </div>
 
           {/* Core Team Structure Summary Banner */}
-          <div className="mt-16 pt-8 border-t border-neutral-200/60 grid grid-cols-1 md:grid-cols-3 gap-8 text-neutral-800">
+          <div className="mt-16 pt-8 border-t border-neutral-200/60 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-neutral-800">
             <div>
               <span className="text-xs font-mono text-neutral-400 uppercase block mb-1">Командный ресурс</span>
-              <span className="text-lg font-medium font-display block">20 специалистов уровня Middle+</span>
-              <span className="text-sm text-neutral-500 font-light block mt-1">Опытная слаженная команда: аналитика, разработка, ИИ-решения и QA.</span>
+              <span className="text-lg font-medium font-display block">20 специалистов</span>
+              <span className="text-sm text-neutral-500 font-light block mt-1">Аналитика, разработка, ИИ-решения и выделенный QA-отдел.</span>
             </div>
             <div>
-              <span className="text-xs font-mono text-neutral-400 uppercase block mb-1">Специализация</span>
-              <span className="text-lg font-medium font-display block">Интеграции, Финтех, Медицина</span>
-              <span className="text-sm text-neutral-500 font-light block mt-1">ИИ-решения, автоматизация учета, ERP и RAG системы.</span>
+              <span className="text-xs font-mono text-neutral-400 uppercase block mb-1">Языковая подготовка</span>
+              <span className="text-lg font-medium font-display block">Английский C1 / Advanced</span>
+              <span className="text-sm text-neutral-500 font-light block mt-1">Свободное ведение технической документации и проведение встреч.</span>
             </div>
             <div>
-              <span className="text-xs font-mono text-neutral-400 uppercase block mb-1">Опыт на проектах гигантов</span>
+              <span className="text-xs font-mono text-neutral-400 uppercase block mb-1">Глобальный опыт</span>
+              <span className="text-lg font-medium font-display block">Интернациональный трек</span>
+              <span className="text-sm text-neutral-500 font-light block mt-1">Опыт проектирования систем в зарубежных командах и стартапах.</span>
+            </div>
+            <div>
+              <span className="text-xs font-mono text-neutral-400 uppercase block mb-1">Опыт в гигантах</span>
               <span className="text-lg font-medium font-display block">Газпром, МосБиржа, Спартак</span>
-              <span className="text-sm text-neutral-500 font-light block mt-1">Наши специалисты проектировали ключевые модули для лидеров рынка.</span>
+              <span className="text-sm text-neutral-500 font-light block mt-1">Наши инженеры проектировали ключевые модули для лидеров рынка.</span>
             </div>
           </div>
         </div>
@@ -639,7 +650,7 @@ export default function App() {
                   20 слаженных специалистов под ключ
                 </h2>
                 <p className="text-neutral-500 text-sm sm:text-base font-light mt-3 leading-relaxed">
-                  Мы работаем как сформированная полноценная автономная единица. Наши аналитики прорабатывают детальные спецификации и ТЗ, бэкенд проектирует отказоустойчивую архитектуру, фронтенд создает отзывчивые интерфейсы, а QA-специалисты гарантируют абсолютную стабильность решения.
+                  Мы работаем как сформированная полноценная автономная единица. Наши аналитики прорабатывают детальные спецификации и ТЗ, бэкенд проектирует отказоустойчивую архитектуру, фронтенд создает отзывчивые интерфейсы, а QA-специалисты гарантируют абсолютную стабильность решения. Все ключевые специалисты обладают подтвержденным опытом в распределенных международных командах.
                 </p>
               </div>
 
@@ -662,6 +673,31 @@ export default function App() {
                   <div className="bg-white border border-neutral-200 p-3 rounded">
                     <span className="text-2xl font-mono font-bold text-neutral-900 block">20%</span>
                     <span className="text-[10px] font-mono text-neutral-500 uppercase tracking-wider block mt-1">Аналитика & QA</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* International & English standards box */}
+              <div className="bg-neutral-50 border border-neutral-200 p-6 rounded space-y-3.5">
+                <span className="text-xs font-mono text-neutral-400 uppercase block">Международные стандарты:</span>
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-3 text-xs sm:text-sm text-neutral-700 font-light">
+                    <span className="font-mono text-[10px] font-bold text-neutral-900 bg-amber-400 w-5 h-5 flex items-center justify-center rounded shrink-0">
+                      C1
+                    </span>
+                    <div>
+                      <strong className="font-medium text-neutral-950 block">Английский язык — Advanced / С1</strong>
+                      <span className="text-neutral-500 text-xs mt-1 block">Свободное написание технической документации, проведение презентаций и сессий планирования на английском языке.</span>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3 text-xs sm:text-sm text-neutral-700 font-light">
+                    <span className="font-mono text-[10px] font-bold text-neutral-900 bg-neutral-200 w-5 h-5 flex items-center justify-center rounded shrink-0">
+                      INT
+                    </span>
+                    <div>
+                      <strong className="font-medium text-neutral-950 block">Опыт в зарубежных проектах</strong>
+                      <span className="text-neutral-500 text-xs mt-1 block">Наши специалисты успешно работали над продуктами для рынков США, Европы и Азии в распределенных кросс-функциональных командах.</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -963,14 +999,15 @@ export default function App() {
             
             {/* Column A: Logo & Description */}
             <div className="md:col-span-5 space-y-4">
-              <span className="font-display font-bold text-xl tracking-tight text-white block">
-                КОНТУР <span className="font-mono text-xs font-normal text-neutral-500 ml-1">LABS</span>
-              </span>
+              <div className="flex items-center space-x-2">
+                <Code className="w-5 h-5 text-white" />
+                <span className="text-xs font-mono text-neutral-400 uppercase tracking-wider">Инженерная команда</span>
+              </div>
               <p className="text-xs sm:text-sm text-neutral-400 font-light leading-relaxed max-w-sm">
                 Мы берем на себя полную разработку цифровых решений с прогнозируемым результатом. Разрабатываем сайты, микросервисы, распределенные шины данных и интегрируем искусственный интеллект в контуры крупных компаний.
               </p>
               <div className="pt-2 flex items-center space-x-3 text-neutral-500 text-xs font-mono">
-                <span>© 2026 Контур Labs.</span>
+                <span>© 2026 Команда разработки.</span>
                 <span>•</span>
                 <span>Все права защищены.</span>
               </div>
