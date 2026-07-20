@@ -1,6 +1,0 @@
-{
-  "name": "Kontur Labs Dev Team",
-  "description": "Одностраничное портфолио и интерактивный калькулятор услуг ИТ-команды Контур Labs (сложные системы, бэкенд на .NET, ИИ-решения, медицина, финтех).",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
