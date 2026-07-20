@@ -1041,7 +1041,7 @@ export default function App() {
                   </div>
                   <div>
                     <span className="text-[10px] font-mono text-neutral-500 block uppercase leading-none mb-1">Telegram (Личный / Лид)</span>
-                    <span className="text-sm font-medium font-mono">@KaraushIvan</span>
+                    <span className="text-sm font-medium font-mono">@iByrku</span>
                   </div>
                 </a>
               </div>
