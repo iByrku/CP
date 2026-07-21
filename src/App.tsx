@@ -179,7 +179,7 @@ export default function App() {
                 Оценить проект <ArrowRight className="w-3.5 h-3.5 ml-1.5" />
               </a>
               <a 
-                href="https://t.me/iByrku" 
+                href="https://t.me/KaraushIvan" 
                 target="_blank" 
                 rel="noreferrer"
                 className="inline-flex items-center justify-center p-2 text-neutral-700 hover:text-neutral-950 hover:bg-neutral-100 rounded transition-all"
@@ -964,7 +964,7 @@ export default function App() {
                   
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
                     <a 
-                      href="https://t.me/iByrku" 
+                      href="https://t.me/KaraushIvan" 
                       target="_blank" 
                       rel="noreferrer"
                       className="inline-flex items-center justify-center space-x-2 bg-neutral-900 hover:bg-neutral-800 text-white font-medium text-sm py-3 px-4 rounded transition-all shadow-sm"
@@ -1031,7 +1031,7 @@ export default function App() {
                 </a>
 
                 <a 
-                  href="https://t.me/iByrku" 
+                  href="https://t.me/KaraushIvan" 
                   target="_blank" 
                   rel="noreferrer"
                   className="flex items-center space-x-3 text-neutral-300 hover:text-white transition-colors group"
@@ -1054,7 +1054,7 @@ export default function App() {
                 Пришлите описание задачи или ТЗ на почту либо в Telegram — вернемся с точной сметой, сроками и планом реализации в течение суток.
               </p>
               <a 
-                href="https://t.me/iByrku" 
+                href="https://t.me/KaraushIvan" 
                 target="_blank" 
                 rel="noreferrer"
                 className="inline-flex items-center text-xs font-mono text-white hover:underline pt-1"
